@@ -12,7 +12,7 @@ function isTriangle(){
     angle1=Number(angleInput[0].value);
     angle2=Number(angleInput[1].value);
     angle3=Number(angleInput[2].value);
-    if  (angle1 && angle2 && angle3 ){
+    if  (angle1>0 && angle2>0 && angle3>0 ){
         const sumOftheAngles = sumOfAngle(angle1,angle2,angle3);
 
         if (sumOftheAngles===180){
