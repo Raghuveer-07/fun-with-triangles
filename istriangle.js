@@ -25,7 +25,7 @@ function isTriangle(){
 
     }
     else{
-        outputEl.innerText="please fill all the angle fields"
+        outputEl.innerText="please fill all the angle fields with > 0"
     }
 }
 

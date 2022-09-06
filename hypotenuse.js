@@ -20,7 +20,7 @@ function calculateHypotenuse(){
     }
 
     else{
-        outputEl.innerText = "Enter all the fields";
+        outputEl.innerText = "Enter all the fields with >0";
     }
     
 }
